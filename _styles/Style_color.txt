@@ -1,0 +1,4 @@
+#CACAC7 ; Gray nickel
+#14372D ; Gable Green
+#B48E37 ; Amine (yellow or)
+#81561F ; Bullshot (marron fort)

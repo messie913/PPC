@@ -1,0 +1,160 @@
+:root{
+    --green-color : #14372D ;/*Green color*/
+    --or-color : #B48E37 ;/*Or color*/
+    --marron-color : #81561F; /*maaron color*/
+    --gray-color : #CACAC7 ; /*gray color*/
+    --font-familly : 'Poppins', sans-serif; /*Font for all web site*/
+    --btn-links : #B48E37;/*Btn colors*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+    header {
+    font-family: "Questrial", sans-serif;
+    }
+    main, footer{
+        font-family: "Poppins", sans-serif;
+    }
+    h1{
+        font-family: "Questrial",sans-serif;
+    }
+header, footer{
+    padding: 0px 80px;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+.navbar-toggler {
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.menuComputer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+body .basket{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    height: 140px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+.info{
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+main form .msg {
+    font-size: .8em;
+    color: rgb(88, 1, 1);
+    margin-left: 20px;
+  }
+  main form input.invalid, main form textarea.invalid {
+    border: 1px solid red;
+  }
+  main form input:valid, main form textarea:valid {
+    border: 1px solid green;
+  }
+.container {
+    width: 90%;
+}
+footer{
+    background-color: var(--green-color);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.leftFooter a{
+    text-decoration: none;
+    color: white;
+}
+.cardImages{
+    width: 40%;
+    height: auto;
+}
+.leftFooter a:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+.rightFooter{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 30px;
+}
+.CenterFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer p{
+    padding: auto;
+    text-align: center;
+}
+
+@media screen and (max-width:1360px)  {
+    #formu{
+        display: block;
+    }
+}
+@media screen and (max-width:991px) {
+    header{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-toggler {
+        border-radius: 50%;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    .basket{
+        align-items: center;
+        margin-right: 243px;
+    }
+    .menuComputer{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .cardImages{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: left;
+        gap: 30px ;
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
